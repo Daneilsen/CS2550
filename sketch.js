@@ -1,8 +1,9 @@
 var drops = [];
 
 function setup() {
-  createCanvas(640, 360);
-  for (var i = 0; i < 500; i++) {
+  angleMode(DEGREES)
+  createCanvas(windowWidth, windowHeight);
+  for (var i = 0; i < 800; i++) {
     drops[i] = new Drop();
   }
 }
